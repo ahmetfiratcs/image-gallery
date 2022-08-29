@@ -1,4 +1,20 @@
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/
+https://darekkay.com/flexbox-cheatsheet/ */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3rem;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  /* width: 400px; */
+  text-align: center;
+}
 
 img {
   width: 450px;
